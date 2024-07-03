@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+div, section {
+  display: flex;
+}
+
+section {
+  padding: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Inter Tight";
+}
+
+p {
+  font-family: "Inter";
+}
+
+.heading-dark {
+  font-size: 42px;
+}
+
+.text-dark {
+  font-size: 20px;
+}
+
+.heading-huge {
+  font-size: 88px;
+}
+
+.text-container {
+  flex-direction: column;
+  width: 600px;
+  gap: 8px;
+}
+
+.default-btn {
+  display: flex;
+  justify-content: center;
+  color: black;
+  width: 250px;
+  padding: 16px 8px;
+  font-family: "Inter Tight";
+  font-size: 18px;
+  border: solid black 1px;
+  border-radius: 32px;
+  margin-top: 16px;
+  background-color: #c3ffdf;
+  box-shadow: -4px 4px black;
+  transition: 300ms;
+}
+
+.default-btn:hover {
+  transform: translateX(-4px) translateY(4px);
+  box-shadow: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* home-banner-section */
+#home-banner-section {
+  background-color: #fafafa;
+  justify-content: left;
+}
+
+.banner-content {
+  gap: 32px;
+  align-items: center;
+}
+
+.diamond-logo {
+  width: 80px;
+}
+
+.banner-heading {
+  font-size: 42px;
+}
+
+.banner-slogan {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* intro-section */
+#intro-section {
+  background-color: white;
+}
+
+.intro-content-container {
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+#intro-img {
+  width: 50%;
+  max-width: 800px;
+  border-radius: 16px;
+}
+
+/* offering-section */
+#offering-section {
+  flex-direction: column;
+  background-color: #fafafa;
+  gap: 32px;
+  background-image: url('media/wave-haikei.svg');
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.card-container {
+  gap: 32px;
+}
+
+.offering-card {
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px;
+  width: 400px;
+  background-color: white;
+  gap: 4px;
+  border-radius: 16px;
+  transition: 300ms;
+}
+
+.offering-card:hover {
+  transform: translateY(-8px);
+}
+
+.card-icon {
+  width: 64px;
+  margin-bottom: 8px;
+}
+
+.card-heading {
+  font-size: 32px;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+/* process-section */
+#process-section {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+#process-card-container {
+  flex-direction: column;
+}
+
+#process-img {
+  margin-top: 22px;
+  aspect-ratio: 2.5;
+  border-radius: 16px;
+}
+
+.process-card {
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  gap: 4px;
+  background-color: #fafafa;
+  padding: 32px;
+  border-radius: 16px;
+  height: 120px;
+  box-shadow: -4px 4px black;
+  transition: 300ms;
+}
+
+.process-card:hover {
+  transform: translateX(-4px) translateY(4px);
+  box-shadow: none;
+}
+
