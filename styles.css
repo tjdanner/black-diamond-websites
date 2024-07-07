@@ -55,6 +55,7 @@ p {
   background-color: #c3ffdf;
   box-shadow: -4px 4px black;
   transition: 300ms;
+  cursor: pointer;
 }
 
 .default-btn:hover {
@@ -163,7 +164,7 @@ img {
 
 #process-img {
   margin-top: 22px;
-  aspect-ratio: 2.5;
+  aspect-ratio: 3;
   border-radius: 16px;
 }
 
@@ -185,3 +186,127 @@ img {
   box-shadow: none;
 }
 
+/* home-form-section */
+#home-form-section {
+  gap: 64px;
+}
+
+#home-form {
+  width: 500px;
+  background-color: #fafafa;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+#home-form label {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-family: "Inter Tight";
+}
+
+#home-form input, textarea {
+  width: 100%;
+  margin: 0;
+  border: 1px solid black;
+  border-radius: 32px;
+  padding: 8px 16px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 8px;
+}
+
+#home-form input {
+  height: 42px;
+}
+
+#home-form textarea {
+  height: 120px;
+}
+
+#submit-btn {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .banner-content {
+    gap: 16px;
+  }
+
+  .banner-heading {
+    font-size: 24px;
+  }
+
+  .banner-slogan {
+    font-size: 18px;
+  }
+
+  .text-container {
+    width: 100%;
+  }
+
+  .heading-huge {
+    font-size: 42px;
+  }
+
+  .heading-dark {
+    font-size: 32px;
+  }
+
+  .text-dark {
+    font-size: 16px;
+  }
+
+  .default-btn {
+    width: 150px;
+    font-size: 16px;
+  }
+
+  .intro-content-container {
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+  }
+
+  #intro-img {
+    width: 100%;
+  }
+
+  #offering-section {
+    gap: 32px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .offering-card {
+    width: 100%;
+  }
+
+  .card-heading {
+    font-size: 24px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  #process-section {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  #process-img {
+    margin-top: 8px;
+    width: 100%;
+  }
+
+  #home-form-section {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  #home-form {
+    width: 100%;
+  }
+}
